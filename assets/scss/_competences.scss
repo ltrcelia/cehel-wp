@@ -1,0 +1,227 @@
+#competences {
+  max-width: 1160px;
+  margin: auto;
+  padding: 80px 0;
+  .title {
+    margin-bottom: 100px;
+  }
+  .competences {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    .design-graphique,
+    .motion-design,
+    .web-design {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .competences-img {
+        width: 300px;
+      }
+      h3 {
+        padding-top: 30px;
+        color: $red-cherry;
+      }
+      .more {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 7px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          transform: translateY(-2px);
+        }
+        p {
+          padding-top: 2px;
+        }
+      }
+    }
+  }
+  .hidden-container {
+    animation: apparition 0.3s ease-in-out;
+    display: none;
+    &.active {
+      display: flex;
+      flex-direction: column;
+    }
+    .hidden {
+      margin: 74px 50px;
+      display: flex;
+      img {
+        width: 250px;
+        height: 230px;
+      }
+      .texte-container {
+        margin-left: 100px;
+        width: 50%;
+        h2 {
+          margin-bottom: 20px;
+        }
+        .title {
+          margin-bottom: 50px;
+        }
+        .flex {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px;
+          p {
+            margin-right: 30px;
+            margin-bottom: 7px;
+          }
+          .progress-bar {
+            width: 400px;
+            background-color: rgb(244, 237, 237);
+            height: 20px;
+            border-radius: 5px;
+            .progress {
+              height: 100%;
+              background-color: $red-cherry;
+              border-radius: 5px;
+              transition: width 0.1s ease-in-out;
+            }
+            .ph {
+              animation: animation85 1.5s ease-in-out;
+              width: 85%;
+            }
+            .ill {
+              animation: animation90 1.5s ease-in-out;
+              width: 90%;
+            }
+            .id {
+              animation: animation80 1.5s ease-in-out;
+              width: 80%;
+            }
+            .ae {
+              animation: animation70 1.5s ease-in-out;
+              width: 70%;
+            }
+            .pp {
+              animation: animation50 1.5s ease-in-out;
+              width: 50%;
+            }
+            .xd {
+              animation: animation75 1.5s ease-in-out;
+              width: 75%;
+            }
+            .fig {
+              animation: animation80 1.5s ease-in-out;
+              width: 80%;
+            }
+            .hc {
+              animation: animation90 1.5s ease-in-out;
+              width: 90%;
+            }
+            .js {
+              animation: animation70 1.5s ease-in-out;
+              width: 70%;
+            }
+            .re {
+              animation: animation60 1.5s ease-in-out;
+              width: 60%;
+            }
+            .php {
+              animation: animation50 1.5s ease-in-out;
+              width: 50%;
+            }
+            .wp {
+              animation: animation85 1.5s ease-in-out;
+              width: 85%;
+            }
+          }
+        }
+        .bouton {
+          display: flex;
+          justify-content: center;
+          .btn-pink {
+            margin-top: 40px;
+            font-size: 16px;
+            padding: 15px 25px;
+            font-family: $Regular;
+          }
+        }
+      }
+    }
+  }
+
+  .border {
+    margin-top: 25px;
+    width: 100%;
+    border-bottom: 2px solid $red-cherry;
+    display: block;
+  }
+}
+
+@keyframes apparition {
+  0% {
+    opacity: 0.2;
+    transform: translateY(-70px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animation50 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes animation60 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes animation70 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes animation75 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes animation80 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes animation85 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes animation90 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}

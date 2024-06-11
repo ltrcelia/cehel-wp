@@ -1,0 +1,78 @@
+#accueil-bloc {
+  .ecran-accueil {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: $red-cherry;
+    animation: hide-ecran-blanc 1.5s ease-in-out 300ms forwards;
+    .logo-blanc {
+      position: absolute;
+      width: 350px;
+      animation: move-logo 1.5s ease-in-out 300ms forwards;
+    }
+    .stars-entree {
+      animation: move-stars 1.5s ease-in-out 300ms forwards;
+    }
+    // .entrer {
+    //   position: absolute;
+    //   top: 72%;
+    //   color: white;
+    //   border-top: white solid 2px;
+    //   border-bottom: white solid 2px;
+    //   padding: 8px 20px;
+    //   cursor: pointer;
+    //   p {
+    //     font-size: 20px;
+    //     transition: 0.3s ease-in-out;
+    //     &:hover {
+    //       font-size: 25px;
+    //     }
+    //   }
+    // }
+  }
+  .fond-blanc {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 999;
+    animation: hide-ecran-blanc 1.5s ease-in-out 150ms forwards;
+  }
+}
+
+@keyframes move-logo {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-80px);
+  }
+}
+@keyframes move-stars {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+@keyframes hide-ecran-blanc {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
