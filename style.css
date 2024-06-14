@@ -105,11 +105,17 @@ li {
   display: flex;
   justify-content: center;
 }
+.stars .star {
+  width: 11%;
+}
 
 #mouse {
   z-index: 1000;
   pointer-events: none;
   position: absolute;
+}
+#mouse img {
+  width: 25%;
 }
 
 .encart-contact {
@@ -139,13 +145,14 @@ li {
   position: relative;
   margin-right: 55px;
 }
-.a-bientot p {
+.a-bientot h3 {
   font-size: 30px;
 }
 .a-bientot .star {
   position: absolute;
-  right: -4%;
-  bottom: 45%;
+  right: -5%;
+  bottom: 58%;
+  width: 6%;
 }
 
 #accueil-bloc .ecran-accueil {
@@ -315,7 +322,7 @@ header #menu-menu-principal-1 {
   justify-content: center;
   align-items: center;
 }
-.banniere-more h3 {
+.banniere-more h2 {
   color: white;
   font-family: "Montserrat-regular";
   font-size: 22px;
@@ -324,10 +331,10 @@ header #menu-menu-principal-1 {
 .banniere-more .btn-red {
   font-size: 16px;
 }
-.banniere-more .h3-desktop {
+.banniere-more .h2-desktop {
   display: block;
 }
-.banniere-more .h3-mobile {
+.banniere-more .h2-mobile {
   display: none;
 }
 
@@ -682,7 +689,12 @@ header #menu-menu-principal-1 {
 #competences .competences .design-graphique .competences-img,
 #competences .competences .motion-design .competences-img,
 #competences .competences .web-design .competences-img {
-  width: 300px;
+  width: 75%;
+}
+#competences .competences .design-graphique .img-design,
+#competences .competences .motion-design .img-design,
+#competences .competences .web-design .img-design {
+  width: 67%;
 }
 #competences .competences .design-graphique h3,
 #competences .competences .motion-design h3,
@@ -932,7 +944,6 @@ header #menu-menu-principal-1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: justify;
   margin-top: 60px;
   padding-bottom: 62px;
 }
@@ -966,6 +977,23 @@ header #menu-menu-principal-1 {
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
+}
+#a-propos .passions-container .passions .img-interet {
+  width: 75%;
+}
+#a-propos .passions-container .passions .img-rubis {
+  width: 60%;
+  padding: 24px;
+}
+#a-propos .passions-container .passions .img-livre {
+  padding: 3px;
+}
+#a-propos .passions-container .passions .img-ecrire {
+  width: 100%;
+  padding-bottom: 12px;
+}
+#a-propos .passions-container .passions .img-bad {
+  width: 73%;
 }
 #a-propos .border {
   margin: 80px 0;
@@ -1103,12 +1131,14 @@ header #menu-menu-principal-1 {
     top: 15%;
     left: 10%;
     transform-origin: center;
+    width: 20%;
   }
   #menu-burger .bloc-etoile-bottom {
     position: absolute;
     bottom: 7%;
     right: 10%;
     transform-origin: center;
+    width: 20%;
   }
   #menu-burger .bloc-etoile-bottom img {
     transform: rotate(180deg);
@@ -1210,6 +1240,9 @@ header #menu-menu-principal-1 {
   }
   #a-propos .passions-container .passions {
     margin-bottom: 0;
+  }
+  .stars .star {
+    width: 20%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1338,8 +1371,14 @@ header #menu-menu-principal-1 {
   .a-bientot {
     margin-bottom: 50px;
   }
+  .a-bientot .star {
+    width: 13%;
+  }
   #menu-footer {
     gap: 20px;
+  }
+  .stars .star {
+    width: 20%;
   }
 }
 @keyframes fade-out {

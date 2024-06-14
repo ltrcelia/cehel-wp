@@ -39,7 +39,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  h3 {
+  h2 {
     color: white;
     font-family: $Regular;
     font-size: 22px;
@@ -48,10 +48,10 @@
   .btn-red {
     font-size: 16px;
   }
-  .h3-desktop {
+  .h2-desktop {
     display: block;
   }
-  .h3-mobile {
+  .h2-mobile {
     display: none;
   }
 }

@@ -43,7 +43,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: justify;
     margin-top: 60px;
     padding-bottom: 62px;
     .formations-container {
@@ -77,6 +76,23 @@
       flex-direction: column;
       align-items: center;
       margin-bottom: 60px;
+      .img-interet {
+        width: 75%;
+      }
+      .img-rubis {
+        width: 60%;
+        padding: 24px;
+      }
+      .img-livre {
+        padding: 3px;
+      }
+      .img-ecrire {
+        width: 100%;
+        padding-bottom: 12px;
+      }
+      .img-bad {
+        width: 73%;
+      }
     }
   }
   .border {

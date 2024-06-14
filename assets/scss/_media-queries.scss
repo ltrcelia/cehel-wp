@@ -106,12 +106,14 @@
       top: 15%;
       left: 10%;
       transform-origin: center;
+      width: 20%;
     }
     .bloc-etoile-bottom {
       position: absolute;
       bottom: 7%;
       right: 10%;
       transform-origin: center;
+      width: 20%;
       img {
         transform: rotate(180deg);
       }
@@ -233,6 +235,11 @@
       .passions {
         margin-bottom: 0;
       }
+    }
+  }
+  .stars {
+    .star {
+      width: 20%;
     }
   }
 }
@@ -377,9 +384,17 @@
   }
   .a-bientot {
     margin-bottom: 50px;
+    .star {
+      width: 13%;
+    }
   }
   #menu-footer {
     gap: 20px;
+  }
+  .stars {
+    .star {
+      width: 20%;
+    }
   }
 }
 @keyframes fade-out {

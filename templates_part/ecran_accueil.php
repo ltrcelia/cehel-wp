@@ -3,9 +3,6 @@
 
         <img src="/portfolio-cehel/wp-content/uploads/2024/06/logo-blanc.png" alt="Logo céhel" class="logo-blanc" />
         <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars-entree.png" alt="Etoiles" class="stars-entree" />
-        <!-- <div class="entrer">
-            <p>entrer.</p>
-        </div> -->
     </div>
             
     <div class="fond-blanc"></div>

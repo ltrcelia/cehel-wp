@@ -5,7 +5,7 @@
   <div class="competences">
 
     <div class="design-graphique">
-      <img class="competences-img" src="/portfolio-cehel/wp-content/uploads/2024/06/DM.png" alt="Icone design graphique" />
+      <img class="competences-img img-design" src="/portfolio-cehel/wp-content/uploads/2024/06/design-graphique.gif" alt="Icone design graphique" />
       <h3>design de marque.</h3>
       <div class="more design-g">
         <img src="/portfolio-cehel/wp-content/uploads/2024/06/unnamed-file.png" alt="Icone plus" />
@@ -14,7 +14,7 @@
     </div>
 
     <div class="motion-design">
-      <img class="competences-img" src="/portfolio-cehel/wp-content/uploads/2024/06/MD.png" alt="Icone motion design" />
+      <img class="competences-img" src="/portfolio-cehel/wp-content/uploads/2024/06/motion-design.gif" alt="Icone motion design" />
       <h3>motion design.</h3>
       <div class="more motion-d">
         <img src="/portfolio-cehel/wp-content/uploads/2024/06/unnamed-file.png" alt="Icone plus" />
@@ -23,7 +23,7 @@
     </div>
 
     <div class="web-design">
-      <img class="competences-img" src="/portfolio-cehel/wp-content/uploads/2024/06/WD.png" alt="Icone web design" />
+      <img class="competences-img" src="/portfolio-cehel/wp-content/uploads/2024/06/web-design.gif" alt="Icone web design" />
       <h3>web design et site web.</h3>
       <div class="more web-d">
         <img src="/portfolio-cehel/wp-content/uploads/2024/06/unnamed-file.png" alt="Icone plus" />

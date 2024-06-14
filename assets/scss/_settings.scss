@@ -109,11 +109,17 @@ li {
   position: relative;
   display: flex;
   justify-content: center;
+  .star {
+    width: 11%;
+  }
 }
 #mouse {
   z-index: 1000;
   pointer-events: none;
   position: absolute;
+  img {
+    width: 25%;
+  }
 }
 
 .encart-contact {
@@ -141,12 +147,13 @@ li {
   justify-content: flex-end;
   position: relative;
   margin-right: 55px;
-  p {
+  h3 {
     font-size: 30px;
   }
   .star {
     position: absolute;
-    right: -4%;
-    bottom: 45%;
+    right: -5%;
+    bottom: 58%;
+    width: 6%;
   }
 }

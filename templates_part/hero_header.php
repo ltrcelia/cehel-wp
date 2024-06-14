@@ -22,10 +22,10 @@
 
 <div class="banniere-more">
 
-    <h3 class="h3-desktop">Créative | Autonome | Polyvalente</h3>
-    <h3 class="h3-mobile">
+    <h2 class="h2-desktop">Créative | Autonome | Polyvalente</h2>
+    <h2 class="h2-mobile">
     Créative <br /> Autonome <br /> Polyvalente
-    </h3>
+    </h2>
     <button class="btn-red">
     <a href="#a-propos">En savoir plus sur moi.</a>
     </button>
@@ -33,5 +33,5 @@
 </div>
 
 <div class="stars">
-    <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.png" alt="Etoiles" class="star" />
+    <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
 </div>

@@ -34,7 +34,7 @@
     ?>
 
     <div class="stars">
-        <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/stars.png" alt="Etoiles" class="star" />
+        <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
     </div>
 
     <?php
@@ -78,7 +78,7 @@
     <?php endif; ?>
 
     <div class="stars">
-        <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/stars.png" alt="Etoiles" class="star" />
+        <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
     </div>
 
     <?php     

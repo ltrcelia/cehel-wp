@@ -74,39 +74,39 @@
       </div>
 
       <div class="stars">
-        <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.png" alt="Etoiles rouge" class="star" />
+        <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles rouge" class="star" />
       </div>
       <span class="border"></span>
 
       <h2>intérêts.</h2>
       <div class="passions-container">
         <div class="passions">
-          <img src="/portfolio-cehel/wp-content/uploads/2024/06/dessin.png" alt="Crayon coloriant un rond" />
+          <img class="img-interet" src="/portfolio-cehel/wp-content/uploads/2024/06/dessin.gif" alt="Crayon coloriant un rond" />
           <p>dessin.</p>
         </div>
         <div class="passions">
-          <img src="/portfolio-cehel/wp-content/uploads/2024/06/livres.png" alt="Pile de livres" />
+          <img class="img-interet img-livre" src="/portfolio-cehel/wp-content/uploads/2024/06/lire.gif" alt="Pile de livres" />
           <p>fantasy - SF.</p>
         </div>
         <div class="passions">
-          <img src="/portfolio-cehel/wp-content/uploads/2024/06/rubis.png" alt="Rubis" />
+          <img class="img-interet img-rubis" src="/portfolio-cehel/wp-content/uploads/2024/06/rubis.gif" alt="Rubis" />
           <p>zelda.</p>
         </div>
         <div class="passions">
-          <img src="/portfolio-cehel/wp-content/uploads/2024/06/uk.png" alt="Drapeau du Royaume-Uni" />
+          <img class="img-interet" src="/portfolio-cehel/wp-content/uploads/2024/06/uk.gif" alt="Drapeau du Royaume-Uni" />
           <p>royaume-uni.</p>
         </div>
-        <div class="passions">
-          <img src="/portfolio-cehel/wp-content/uploads/2024/06/ecriture.png" alt="Plume écrit sur une feuille" />
+        <div class="passions interet-ecrire">
+          <img class="img-interet img-ecrire" src="/portfolio-cehel/wp-content/uploads/2024/06/ecrire.gif" alt="Plume écrit sur une feuille" />
           <p>écriture.</p>
         </div>
         <div class="passions">
-          <img src="/portfolio-cehel/wp-content/uploads/2024/06/bad.png" alt="Raquette de badminton et son volant" />
+          <img class="img-interet img-bad" src="/portfolio-cehel/wp-content/uploads/2024/06/badminton.gif" alt="Raquette de badminton et son volant" />
           <p>badminton.</p>
         </div>
       </div>
 
       <div class="stars">
-        <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.png" alt="Etoiles" class="star" />
+        <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
       </div>
     </div>

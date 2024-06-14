@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
@@ -11,7 +11,7 @@
 	<header id="navBar">
 
         <div id="mouse">
-            <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/stars.png" alt="Etoile pour souris">
+            <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoile pour souris">
         </div>
         
         <nav id="primary-navigation">
@@ -34,11 +34,11 @@
 
         <div id="menu-burger">
 
-            <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.png" alt="Etoile rouge" class="bloc-etoile-top" />
+            <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoile rouge" class="bloc-etoile-top" />
             <?php wp_nav_menu( array(
             'theme_location' => 'primary-menu',
             ) ); ?>
-            <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.png" alt="Etoiles rouge" class="bloc-etoile-bottom" />
+            <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles rouge" class="bloc-etoile-bottom" />
 
         </div>
 
