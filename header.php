@@ -17,7 +17,7 @@
         <nav id="primary-navigation">
 
             <a id="logo-link" href="<?php echo esc_url( get_permalink( get_option( 'page_on_front' ) ) ); ?>">
-                <img class="logo" src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/logo.png" alt="Logo du portfolio céhel">
+                <img class="logo" src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/logo-gif.gif" alt="Logo du portfolio céhel">
             </a>
 
             <?php wp_nav_menu( array(

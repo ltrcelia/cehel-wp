@@ -172,6 +172,14 @@
       flex-direction: column;
       justify-content: center;
       gap: 30px;
+      .design-graphique,
+      .motion-design,
+      .web-design {
+        .competences-img {
+          width: 50%;
+        }
+      }
+
       .bloc {
         width: 400px;
         height: 350px;
@@ -292,13 +300,13 @@
 
   .banniere-more {
     margin-bottom: 40px;
-    h3 {
+    h2 {
       margin-bottom: 20px;
     }
-    .h3-desktop {
+    .h2-desktop {
       display: none;
     }
-    .h3-mobile {
+    .h2-mobile {
       display: block;
       text-align: center;
     }

@@ -1,17 +1,8 @@
 <?php 
-// session_start();
-// $_SESSION["toto"] = true; 
 get_header();
-//  $id_session = session_id();
-//  var_dump($id_session);
-// var_dump(session_save_path());
  ?>
 
 <main>
-<!-- <?php if (!isset($_SESSION['toto']) && !$_SESSION['toto']) : ?> -->
-<!-- <?php get_template_part( 'templates_part/ecran_accueil' ); ?> -->
-<!-- <?php $_SESSION['toto'] = true; ?>
-<?php endif ?> -->
 
   <?php get_template_part( 'templates_part/hero_header' ); ?>
 

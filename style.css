@@ -232,7 +232,7 @@ header #primary-navigation {
   z-index: 100;
 }
 header #primary-navigation .logo {
-  width: 120px;
+  width: 130px;
   transition: 0.2s ease-in-out;
 }
 header #primary-navigation .logo:hover {
@@ -1189,6 +1189,11 @@ header #menu-menu-principal-1 {
     justify-content: center;
     gap: 30px;
   }
+  #competences .competences .design-graphique .competences-img,
+  #competences .competences .motion-design .competences-img,
+  #competences .competences .web-design .competences-img {
+    width: 50%;
+  }
   #competences .competences .bloc {
     width: 400px;
     height: 350px;
@@ -1289,13 +1294,13 @@ header #menu-menu-principal-1 {
   .banniere-more {
     margin-bottom: 40px;
   }
-  .banniere-more h3 {
+  .banniere-more h2 {
     margin-bottom: 20px;
   }
-  .banniere-more .h3-desktop {
+  .banniere-more .h2-desktop {
     display: none;
   }
-  .banniere-more .h3-mobile {
+  .banniere-more .h2-mobile {
     display: block;
     text-align: center;
   }
