@@ -46,7 +46,7 @@
   </div>
 
   <div class="stars">
-    <img src="/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles rouge" class="star" />
+    <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/stars.gif" alt="Etoiles rouge" class="star" />
   </div>
 
   <?php get_template_part( 'templates_part/competences' ); ?>

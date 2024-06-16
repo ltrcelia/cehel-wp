@@ -34,7 +34,7 @@
     ?>
 
     <div class="stars">
-        <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
+        <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
     </div>
 
     <?php
@@ -78,7 +78,7 @@
     <?php endif; ?>
 
     <div class="stars">
-        <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
+        <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
     </div>
 
     <?php     
@@ -90,13 +90,13 @@
 
         <div class="arrow-prev">
             <a href="<?php echo get_permalink($next_post); ?>">
-                <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/arrow-prev.png" alt="Flèche précédente" />
+                <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/arrow-prev.png" alt="Flèche précédente" />
             </a>
         </div>
 
         <div class="arrow-next">
             <a href="<?php echo get_permalink($prev_post); ?>">
-                <img src="http://localhost:8888/portfolio-cehel/wp-content/uploads/2024/06/arrow-next.png" alt="Flèche suivante" />
+                <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/arrow-next.png" alt="Flèche suivante" />
             </a>
         </div>
 

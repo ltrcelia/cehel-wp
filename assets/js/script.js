@@ -10,33 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   /* fin */
 
-  /* entree */
-  // let moving = false;
-  // const ecranAccueil = document.querySelector(".ecran-accueil");
-  // const fondBlanc = document.querySelector(".fond-blanc");
-  // const logoBlanc = document.querySelector(".logo-blanc");
-  // const starsEntree = document.querySelector(".stars-entree");
-
-  // if (ecranAccueil && fondBlanc) {
-  //   window.addEventListener("scroll", (e) => {
-  //     if (!moving) {
-  //       e.preventDefault();
-  //       moving = true;
-  //       setTimeout(() => {
-  //         ecranAccueil.classList.add("hidden");
-  //       }, 300);
-  //       setTimeout(() => {
-  //         fondBlanc.classList.add("hidden");
-  //       }, 150);
-  //       setTimeout(() => {
-  //         logoBlanc.style.transform = "translateY(-80px)";
-  //         starsEntree.style.transform = "translateY(-200px)";
-  //       }, 300);
-  //     }
-  //   });
-  // }
-  /* fin */
-
   /* header */
   let lastScroll = 0;
 
