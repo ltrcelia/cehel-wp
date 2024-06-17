@@ -35,7 +35,7 @@
 @media screen and (max-width: $tablet) {
   header {
     margin: 0;
-    padding: 20px 70px;
+    padding: 20px 40px;
     #primary-navigation {
       .menu-menu-principal-container {
         display: none;
@@ -72,6 +72,9 @@
         transform: rotate(-45deg);
         top: -10px;
       }
+    }
+    #mouse {
+      display: none;
     }
   }
 
@@ -127,12 +130,9 @@
     justify-content: center;
     align-items: center;
   }
-  .ecran-accueil {
-    .stars-entree {
-      display: none;
-    }
+  main {
+    margin: 125px 70px;
   }
-
   .hero-header {
     flex-direction: column;
     .text-header {
@@ -176,7 +176,7 @@
       .motion-design,
       .web-design {
         .competences-img {
-          width: 50%;
+          width: 30%;
         }
       }
 
@@ -191,10 +191,6 @@
         justify-content: center;
         align-items: center;
         margin: 40px 0;
-        img {
-          width: 290px;
-          height: 290px;
-        }
         .texte-container {
           margin-left: 0;
           margin-top: 30px;
@@ -220,12 +216,21 @@
 
   #a-propos {
     .a-propos-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      margin-bottom: 60px;
       img {
-        margin-right: 50px;
+        width: 300px;
+        margin-right: 0;
       }
       .texte-apropos {
+        margin-top: 60px;
         p {
           width: 100%;
+          font-size: 15px;
         }
       }
     }
@@ -236,12 +241,27 @@
       margin-bottom: 100px;
     }
     .passions-container {
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-      margin-bottom: 60px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-bottom: 80px;
       .passions {
         margin-bottom: 0;
+        .img-interet {
+          width: 70%;
+        }
+        .img-rubis {
+          width: 55%;
+        }
+        .img-uk {
+          padding-bottom: 10px;
+        }
+        .img-ecrire {
+          width: 80%;
+          padding-bottom: 50px;
+        }
+        .img-bad {
+          width: 75%;
+        }
       }
     }
   }
@@ -255,15 +275,6 @@
 @media screen and (max-width: $mobile) {
   main {
     margin: 70px 50px;
-  }
-
-  .stars-entree {
-    display: none;
-  }
-  .ecran-accueil {
-    .logo {
-      width: 250px;
-    }
   }
 
   #navigation {
@@ -337,8 +348,41 @@
     }
   }
 
+  #realisation-page {
+    .bloc-video {
+      video {
+        width: 120%;
+      }
+    }
+    .fleches {
+      .arrow-prev {
+        left: 3%;
+      }
+      .arrow-next {
+        right: 3%;
+      }
+    }
+  }
+
   #competences {
     padding-bottom: 80px;
+    .competences {
+      .design-graphique,
+      .motion-design,
+      .web-design {
+        .competences-img {
+          width: 70%;
+        }
+      }
+    }
+    .hidden-container {
+      .hidden {
+        img {
+          width: 200px;
+          height: 180px;
+        }
+      }
+    }
   }
 
   #a-propos {
@@ -350,18 +394,19 @@
       margin-top: 40px;
       margin-bottom: 60px;
       img {
-        width: 300px;
+        width: 230px;
         margin-right: 0;
       }
       .texte-apropos {
         margin-top: 60px;
+        text-align: center;
         p {
           width: 100%;
         }
       }
     }
     .encart-pourquoi {
-      padding: 25px;
+      padding: 40px 25px;
       margin-bottom: 60px;
       h2 {
         text-align: center;
@@ -370,11 +415,13 @@
     .formations {
       margin-top: 40px;
       .formations-container {
+        display: block;
         p {
           text-align: left;
         }
         .boules {
           width: 4%;
+          margin: 0;
         }
       }
     }
@@ -384,11 +431,30 @@
       gap: 16px;
       .passions {
         margin-bottom: 30px;
+        .img-interet {
+          width: 100%;
+        }
+        .img-rubis {
+          width: 75%;
+        }
+        .img-uk {
+          padding-bottom: 22px;
+        }
+        .img-ecrire {
+          width: 100%;
+          padding-bottom: 50px;
+        }
+        .img-bad {
+          width: 110%;
+        }
       }
     }
     .stars {
       margin: 30px;
     }
+  }
+  .encart-contact h3 {
+    font-size: 16px;
   }
   .a-bientot {
     margin-bottom: 50px;
@@ -401,7 +467,7 @@
   }
   .stars {
     .star {
-      width: 20%;
+      width: 40%;
     }
   }
 }

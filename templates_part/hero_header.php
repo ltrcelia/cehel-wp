@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/photo-profil.png" alt="Image de profile Célia" class="hero-photo"/>
+    <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/photo-profil.png" alt="Image de profile Célia" class="hero-photo"/>
 
 </div>
 
@@ -33,5 +33,5 @@
 </div>
 
 <div class="stars">
-    <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
+    <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
 </div>

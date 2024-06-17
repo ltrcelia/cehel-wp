@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var category = $(this).data("category");
 
       $.ajax({
-        url: "/portfolio-cehel/wp-admin/admin-ajax.php",
+        url: "https://studio-cehel.fr/wp-admin/admin-ajax.php",
         type: "post",
         data: {
           action: "filter_projects",

@@ -15,10 +15,13 @@
     <?php
         $post_id = get_the_ID();
         $video_url = get_field('video', $post_id);
+        $has_sound = get_field('son_on', $post_id);
 
         if ($video_url) {
             echo '<div class="bloc-video">';
-            echo '<button id="toggleSound" class="btn-red">Activer le son</button>';
+            if ($has_sound) {
+                echo '<button id="toggleSound" class="btn-red">Activer le son</button>';
+            }
             echo '<video id="videoPlayer" autoplay muted loop>';
             echo '<source src="' . esc_url($video_url) . '" type="video/mp4">';
             echo 'Votre navigateur ne prend pas en charge la vidéo HTML5.';
@@ -34,7 +37,7 @@
     ?>
 
     <div class="stars">
-        <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
+        <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
     </div>
 
     <?php
@@ -78,7 +81,7 @@
     <?php endif; ?>
 
     <div class="stars">
-        <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
+        <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
     </div>
 
     <?php     
@@ -90,13 +93,13 @@
 
         <div class="arrow-prev">
             <a href="<?php echo get_permalink($next_post); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/arrow-prev.png" alt="Flèche précédente" />
+                <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/arrow-prev.png" alt="Flèche précédente" />
             </a>
         </div>
 
         <div class="arrow-next">
             <a href="<?php echo get_permalink($prev_post); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2024/06/arrow-next.png" alt="Flèche suivante" />
+                <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/arrow-next.png" alt="Flèche suivante" />
             </a>
         </div>
 
