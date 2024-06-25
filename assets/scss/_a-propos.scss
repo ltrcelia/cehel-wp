@@ -21,6 +21,21 @@
       }
     }
   }
+  .anecdotes {
+    margin-bottom: 100px;
+    text-align: center;
+    h3 {
+      margin-bottom: 20px;
+      font-family: $SemiBold;
+    }
+    p {
+      padding-bottom: 10px;
+    }
+    span {
+      color: $red-cherry;
+      font-family: $Medium;
+    }
+  }
   .encart-pourquoi {
     background-color: $powder-pink;
     border-radius: 20px;

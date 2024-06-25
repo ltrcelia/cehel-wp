@@ -14,6 +14,33 @@
           </p>
         </div>
       </div>
+      <div class="anecdotes">
+        <h3>Quelques anecdotes à savoir sur moi </h3>
+        <p>
+          <span>•</span> J’ai une passion obsessionnelle pour les 
+          <span>paillettes</span>, plus ça brille mieux c’est.
+        </p>
+        <p>
+          <span>•</span> J’adore la <span>mer</span> mais je déteste m’y
+          baigner, un comble pour une Bretonne.
+        </p>
+        <p>
+          <span>•</span> J’aimerais avoir une <span>mini ferme</span> plus tard
+          : âne, moutons, poules…
+        </p>
+        <p>
+          <span>•</span> Je passe mon temps à <span>ranger</span>, tout ce qui
+          me passe sous la main doit être à sa place.
+        </p>
+        <p>
+          <span>•</span> Je suis une <span>couche tard</span>, je réfléchis et
+          travail mieux le soir.
+        </p>
+        <p>
+          •<span>•</span> J’adore <span>lire</span> bien que je n’arrive pas
+          assez souvent à trouver le temps pour.
+        </p>
+      </div>
       <div class="encart-pourquoi">
         <h2>Pourquoi travailler avec moi ?</h2>
         <p>

@@ -862,6 +862,21 @@ header #menu-menu-principal-1 {
   width: 80%;
   line-height: 22px;
 }
+#a-propos .anecdotes {
+  margin-bottom: 100px;
+  text-align: center;
+}
+#a-propos .anecdotes h3 {
+  margin-bottom: 20px;
+  font-family: "Montserrat-SemiBold";
+}
+#a-propos .anecdotes p {
+  padding-bottom: 10px;
+}
+#a-propos .anecdotes span {
+  color: #e84e4f;
+  font-family: "Montserrat-Medium";
+}
 #a-propos .encart-pourquoi {
   background-color: #eec9e0;
   border-radius: 20px;
