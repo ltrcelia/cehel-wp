@@ -183,6 +183,7 @@ header #primary-navigation .logo:hover {
 header #primary-navigation #menu-menu-principal {
   display: flex;
   align-items: baseline;
+  list-style-type: none;
   gap: 45px;
   margin: 0;
 }
@@ -190,11 +191,11 @@ header #primary-navigation #menu-menu-principal a {
   text-align: center;
   text-decoration: none;
   color: #e84e4f;
+  font-family: "Montserrat-regular";
   transition: 0.2s ease-in-out;
 }
 header #primary-navigation #menu-menu-principal a:hover {
-  color: #eec9e0;
-  transform: translateY(-1px);
+  font-family: "Montserrat-Medium";
 }
 header #primary-navigation #menu-menu-principal a li {
   cursor: pointer;
@@ -246,9 +247,11 @@ header #menu-menu-principal-1 {
 }
 .hero-header .text-header .btn-home .btn-red {
   font-size: 18px;
+  text-align: center;
 }
 .hero-header .text-header .btn-home .btn-pink {
   font-size: 18px;
+  text-align: center;
 }
 
 .banniere-more {
@@ -285,7 +288,7 @@ header #menu-menu-principal-1 {
   padding-top: 80px;
 }
 #realisations h2 {
-  margin-bottom: 1%;
+  margin-bottom: 80px;
 }
 #realisations .categories {
   display: flex;
@@ -445,7 +448,7 @@ header #menu-menu-principal-1 {
   transition: 0.3s ease-in-out;
 }
 #realisation-page .lightbox .close:hover {
-  scale: 1.05;
+  transform: scale(1.05);
   background-color: #e84e4f;
   color: #eec9e0;
 }
@@ -692,6 +695,9 @@ header #menu-menu-principal-1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+}
+#competences .hidden-container .hidden .texte-container .flex .outils {
+  line-height: 25px;
 }
 #competences .hidden-container .hidden .texte-container .flex p {
   margin-right: 30px;

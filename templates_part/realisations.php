@@ -1,24 +1,7 @@
 <div id="realisations">
 
   <h2>réalisations.</h2>
-
-  <div class="categories">
-
-    <?php
-    $terms = get_terms(array(
-        'taxonomy' => 'categorie',
-        'hide_empty' => false,
-        'orderby' => 'none'
-    )); 
-    foreach ($terms as $term) :
-    ?>
-
-    <button class="btn-pink" data-category="<?php echo $term->slug; ?>"><?php echo $term->name; ?></button>
-
-    <?php endforeach; ?>
-
-  </div>
-
+  
   <div class="realisations">
 
     <div class="realisation">
@@ -46,7 +29,7 @@
   </div>
 
   <div class="stars">
-    <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles rouge" class="star" />
+    <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles rouge" class="star">
   </div>
 
   <?php get_template_part( 'templates_part/competences' ); ?>

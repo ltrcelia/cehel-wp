@@ -24,16 +24,17 @@ header {
     #menu-menu-principal {
       display: flex;
       align-items: baseline;
+      list-style-type: none;
       gap: 45px;
       margin: 0;
       a {
         text-align: center;
         text-decoration: none;
         color: $red-cherry;
+        font-family: $Regular;
         transition: 0.2s ease-in-out;
         &:hover {
-          color: $powder-pink;
-          transform: translateY(-1px);
+          font-family: $Medium;
         }
         li {
           cursor: pointer;

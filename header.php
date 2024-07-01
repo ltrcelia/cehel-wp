@@ -34,11 +34,11 @@
 
         <div id="menu-burger">
 
-            <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoile rouge" class="bloc-etoile-top" />
+            <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoile rouge" class="bloc-etoile-top">
             <?php wp_nav_menu( array(
             'theme_location' => 'primary-menu',
             ) ); ?>
-            <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles rouge" class="bloc-etoile-bottom" />
+            <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles rouge" class="bloc-etoile-bottom">
 
         </div>
 

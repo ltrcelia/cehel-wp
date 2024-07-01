@@ -37,7 +37,7 @@
     ?>
 
     <div class="stars">
-        <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
+        <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star">
     </div>
 
     <?php
@@ -81,7 +81,7 @@
     <?php endif; ?>
 
     <div class="stars">
-        <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star" />
+        <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/stars.gif" alt="Etoiles" class="star">
     </div>
 
     <?php     
@@ -93,13 +93,13 @@
 
         <div class="arrow-prev">
             <a href="<?php echo get_permalink($next_post); ?>">
-                <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/arrow-prev.png" alt="Flèche précédente" />
+                <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/arrow-prev.png" alt="Flèche précédente">
             </a>
         </div>
 
         <div class="arrow-next">
             <a href="<?php echo get_permalink($prev_post); ?>">
-                <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/arrow-next.png" alt="Flèche suivante" />
+                <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/arrow-next.png" alt="Flèche suivante">
             </a>
         </div>
 
