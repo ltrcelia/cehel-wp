@@ -1,7 +1,7 @@
 <div id="a-propos">
   <h2>à propos.</h2>
   <div class="a-propos-container">
-    <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/photo-profil.png" alt="Représentation de Célia">
+    <img src="https://studio-cehel.fr/wp-content/uploads/2024/07/photo-celia.png" alt="Représentation de Célia">
     <div class="texte-apropos">
       <h2>Hello, je suis Célia.</h2>
       <p>

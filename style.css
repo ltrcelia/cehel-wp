@@ -224,6 +224,124 @@ header #menu-menu-principal-1 {
   display: none;
 }
 
+.modal {
+  display: none;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(238, 201, 224, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  background-color: #eec9e0;
+  margin: 10% auto;
+  padding: 30px;
+  border: 2px solid #e84e4f;
+  border-radius: 20px;
+  width: 550px;
+  height: auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form label {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.contact-form .wpcf7-text {
+  margin: 5px 0 7px 0;
+  padding-left: 10px;
+  height: 40px;
+}
+
+.contact-form .wpcf7-textarea {
+  height: 210px;
+  margin: 5px 0 7px 0;
+  padding: 10px 0 0 10px;
+}
+
+.contact-form .wpcf7-text,
+.contact-form .wpcf7-textarea {
+  width: 260px;
+  border-radius: 8px;
+  border: 1px solid #e84e4f;
+  background: #e8b9d7;
+  color: #2e3d7c;
+}
+
+.wpcf7-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.wpcf7-submit {
+  font-family: "Montserrat-Medium";
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+  width: 150px;
+  height: 40px;
+  padding: 8px 15px;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: none;
+  background: #e84e4f;
+  color: white;
+}
+
+.bloc-etoile-top {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  transform-origin: center;
+  width: 15%;
+}
+
+.bloc-etoile-bottom {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  transform-origin: center;
+  width: 15%;
+}
+
+@media screen and (max-width: 730px) {
+  .modal-content {
+    width: 80%;
+  }
+  .banner-header {
+    padding: 20px 0 0 0;
+  }
+  .contact-form label {
+    margin-top: 0px;
+  }
+  .contact-form .wpcf7-text {
+    width: 190px;
+    margin: 4px 0 0 0;
+  }
+  .contact-form .wpcf7-textarea {
+    height: 150px;
+    width: 190px;
+    margin: 4px 0 0 0;
+  }
+  .wpcf7-submit {
+    width: 190px;
+    height: 50px;
+  }
+}
 .hero-header {
   display: flex;
   justify-content: space-around;

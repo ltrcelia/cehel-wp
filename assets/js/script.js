@@ -23,10 +23,54 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   /* fin */
 
+  // modal contact
+  const modal = document.getElementById("myModal");
+  const contactLink = document.querySelector('nav a[href="#contact"]');
+  const contactLinkCta = document.querySelector(
+    '.encart-contact a[href="#contact"]'
+  );
+  const contactLinkFooter = document.querySelector(
+    '#menu-item-12 a[href="#contact"]'
+  );
+  const contactLinkBurger = document.querySelector(
+    '#menu-burger a[href="#contact"]'
+  );
+  const menuLiens = document.querySelectorAll("a");
+  const btnContact = document.querySelector(".btn-contact");
+
+  contactLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    modal.style.display = "block";
+  });
+  contactLinkCta.addEventListener("click", function (event) {
+    event.preventDefault();
+    modal.style.display = "block";
+  });
+  contactLinkFooter.addEventListener("click", function (event) {
+    event.preventDefault();
+    modal.style.display = "block";
+  });
+  contactLinkBurger.addEventListener("click", function (event) {
+    event.preventDefault();
+    modal.style.display = "block";
+  });
+  window.addEventListener("click", function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+
+  if (btnContact) {
+    btnContact.addEventListener("click", function (event) {
+      event.preventDefault();
+      modal.style.display = "block";
+    });
+  }
+  // fin
+
   /* menu burger */
   const btnBurger = document.getElementById("btn");
   const menuBurger = document.getElementById("menu-burger");
-  const menuLiens = document.querySelectorAll("a");
 
   btnBurger.addEventListener("click", () => {
     btnBurger.classList.toggle("active");

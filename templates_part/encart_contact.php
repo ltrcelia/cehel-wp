@@ -6,7 +6,7 @@
     </h3>
     
     <button class="btn-red">
-      <a href="mailto:celia.letellier@gmail.com">Contact.</a>
+      <a href="#contact">Contact.</a>
     </button>
 
 </div>
