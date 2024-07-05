@@ -41,16 +41,16 @@ header {
         }
       }
       #menu-item-18 {
-        background-color: $red-cherry;
-        padding: 10px 22px;
-        border-radius: 10px;
-        transition: all 0.2s ease-in-out;
+        a {
+          color: white !important;
+          background-color: $red-cherry;
+          padding: 10px 22px;
+          border-radius: 10px;
+          transition: all 0.2s ease-in-out;
+        }
         &:hover {
           transform: translateY(-2px);
           font-family: $Regular;
-        }
-        a {
-          color: white !important;
         }
       }
     }

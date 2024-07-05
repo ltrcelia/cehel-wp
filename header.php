@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenue sur le portfolio de Célia, alias céhel, développeuse front-end spécialisé en react. Explorez mes différentes réalisations et voyez comment je peux vous aider à créer des sites web performants et esthétiques.">
     <?php wp_head(); ?>
     <title>Studio cehel</title>
 </head>
@@ -17,7 +18,7 @@
         <nav id="primary-navigation">
 
             <a id="logo-link" href="<?php echo esc_url( get_permalink( get_option( 'page_on_front' ) ) ); ?>">
-                <img class="logo" src="https://studio-cehel.fr/wp-content/uploads/2024/06/logo-gif.gif" alt="Logo du portfolio céhel">
+                <img class="logo" src="https://studio-cehel.fr/wp-content/uploads/2024/07/logo-gif.gif" alt="Logo du portfolio céhel">
             </a>
 
             <?php wp_nav_menu( array(

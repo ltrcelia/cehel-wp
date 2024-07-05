@@ -5,8 +5,6 @@
       Laissez moi un message ✨
     </h3>
     
-    <button class="btn-red">
-      <a href="#contact">Contact.</a>
-    </button>
+    <a class="btn-red" href="#contact">Contact.</a>
 
 </div>

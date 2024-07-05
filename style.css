@@ -65,7 +65,7 @@ li {
 
 .btn-red {
   color: white;
-  background-color: #e84e4f;
+  background-color: #d03e45;
   border-radius: 15px;
   border: none;
   padding: 20px 25px;
@@ -96,7 +96,7 @@ li {
 }
 
 .btn-pink .active {
-  background-color: #e84e4f;
+  background-color: #d03e45;
   color: white;
 }
 
@@ -190,7 +190,7 @@ header #primary-navigation #menu-menu-principal {
 header #primary-navigation #menu-menu-principal a {
   text-align: center;
   text-decoration: none;
-  color: #e84e4f;
+  color: #d03e45;
   font-family: "Montserrat-regular";
   transition: 0.2s ease-in-out;
 }
@@ -200,8 +200,9 @@ header #primary-navigation #menu-menu-principal a:hover {
 header #primary-navigation #menu-menu-principal a li {
   cursor: pointer;
 }
-header #primary-navigation #menu-menu-principal #menu-item-18 {
-  background-color: #e84e4f;
+header #primary-navigation #menu-menu-principal #menu-item-18 a {
+  color: white !important;
+  background-color: #d03e45;
   padding: 10px 22px;
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
@@ -209,9 +210,6 @@ header #primary-navigation #menu-menu-principal #menu-item-18 {
 header #primary-navigation #menu-menu-principal #menu-item-18:hover {
   transform: translateY(-2px);
   font-family: "Montserrat-regular";
-}
-header #primary-navigation #menu-menu-principal #menu-item-18 a {
-  color: white !important;
 }
 header #primary-navigation #btn {
   display: none;
@@ -241,7 +239,7 @@ header #menu-menu-principal-1 {
   background-color: #eec9e0;
   margin: 10% auto;
   padding: 30px;
-  border: 2px solid #e84e4f;
+  border: 2px solid #d03e45;
   border-radius: 20px;
   width: 550px;
   height: auto;
@@ -275,7 +273,7 @@ header #menu-menu-principal-1 {
 .contact-form .wpcf7-textarea {
   width: 260px;
   border-radius: 8px;
-  border: 1px solid #e84e4f;
+  border: 1px solid #d03e45;
   background: #e8b9d7;
   color: #2e3d7c;
 }
@@ -298,7 +296,7 @@ header #menu-menu-principal-1 {
   margin-top: 10px;
   border-radius: 12px;
   border: none;
-  background: #e84e4f;
+  background: #d03e45;
   color: white;
 }
 
@@ -355,7 +353,7 @@ header #menu-menu-principal-1 {
   padding-right: 90px;
 }
 .hero-header .text-header h1 span {
-  color: #e84e4f;
+  color: #d03e45;
 }
 .hero-header .text-header .btn-home {
   display: flex;
@@ -555,7 +553,7 @@ header #menu-menu-principal-1 {
 }
 #realisation-page .lightbox .close {
   position: fixed;
-  color: #e84e4f;
+  color: #d03e45;
   background-color: #eec9e0;
   border-radius: 50%;
   padding: 0 20px;
@@ -567,7 +565,7 @@ header #menu-menu-principal-1 {
 }
 #realisation-page .lightbox .close:hover {
   transform: scale(1.05);
-  background-color: #e84e4f;
+  background-color: #d03e45;
   color: #eec9e0;
 }
 #realisation-page .lightbox .lightbox-content {
@@ -761,7 +759,7 @@ header #menu-menu-principal-1 {
 #competences .competences .motion-design h3,
 #competences .competences .web-design h3 {
   padding-top: 30px;
-  color: #e84e4f;
+  color: #d03e45;
 }
 #competences .competences .design-graphique .more,
 #competences .competences .motion-design .more,
@@ -829,7 +827,7 @@ header #menu-menu-principal-1 {
 }
 #competences .hidden-container .hidden .texte-container .flex .progress-bar .progress {
   height: 100%;
-  background-color: #e84e4f;
+  background-color: #d03e45;
   border-radius: 5px;
   transition: width 0.1s ease-in-out;
 }
@@ -894,7 +892,7 @@ header #menu-menu-principal-1 {
 #competences .border {
   margin-top: 25px;
   width: 100%;
-  border-bottom: 2px solid #e84e4f;
+  border-bottom: 2px solid #d03e45;
   display: block;
 }
 
@@ -998,7 +996,7 @@ header #menu-menu-principal-1 {
   padding-bottom: 10px;
 }
 #a-propos .anecdotes span {
-  color: #e84e4f;
+  color: #d03e45;
   font-family: "Montserrat-Medium";
 }
 #a-propos .encart-pourquoi {
@@ -1035,7 +1033,7 @@ header #menu-menu-principal-1 {
   border-radius: 50%;
   width: 10px;
   height: 10px;
-  background-color: #e84e4f;
+  background-color: #d03e45;
   margin: 0 10px;
 }
 #a-propos .formations .formations-container .noms-ecoles {
@@ -1157,7 +1155,7 @@ header #menu-menu-principal-1 {
   }
   header #primary-navigation #btn span {
     width: 40px;
-    background: #e84e4f;
+    background: #d03e45;
     height: 4px;
     border-radius: 5px;
     display: block;
@@ -1200,7 +1198,7 @@ header #menu-menu-principal-1 {
     gap: 30px;
   }
   #menu-burger ul li {
-    color: #e84e4f;
+    color: #d03e45;
     font-size: 30px;
     transition: 0.2s ease-in-out;
   }

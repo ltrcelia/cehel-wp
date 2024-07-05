@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <img src="https://studio-cehel.fr/wp-content/uploads/2024/06/photo-profil.png" alt="Image de profile Célia" class="hero-photo">
+    <img src="https://studio-cehel.fr/wp-content/uploads/2024/07/photo-profil.jpg" alt="Image de profile Célia" class="hero-photo">
 
 </div>
 
